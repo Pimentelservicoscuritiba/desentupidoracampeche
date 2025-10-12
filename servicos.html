@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Serviços especializados de desentupimento: vaso sanitário, pia, ralo, esgoto, tanque, caixa de gordura, limpa fossa e hidrojateamento no Campeche Florianópolis. Atendimento 24h.">
+    <meta name="keywords" content="desentupimento vaso sanitário campeche, desentupimento pia, desentupimento ralo, limpa fossa campeche, limpeza caixa gordura">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://desentupidoracampeche.app.br/servicos.html">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Serviços de Desentupimento Campeche | Desentupidora 24h</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-color: #1e5a8e;
+            --secondary-color: #ffa500;
+            --accent-color: #28a745;
+            --dark-color: #1a1a1a;
+            --light-color: #f8f9fa;
+            --white: #ffffff;
+            --red: #dc3545;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            overflow-x: hidden;
+        }
+        
+        .header {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--white);
+            text-decoration: none;
+        }
+        
+        .nav {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .nav a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav a:hover {
+            color: var(--secondary-color);
+        }
+        
+        .cta-button {
+            background: var(--secondary-color);
+            color: var(--dark-color);
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255,165,0,0.4);
+        }
+        
+        .page-hero {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #2c7ab8 100%);
+            color: var(--white);
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        .page-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .page-hero p {
+            font-size: 1.25rem;
+            opacity: 0.95;
+        }
+        
+        .section {
+            padding: 4rem 0;
+        }
+        
+        .service-detail {
+            background: var(--white);
+            border-radius: 10px;
+            padding: 3rem;
+            margin-bottom: 3rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .service-detail:nth-child(even) {
+            background: var(--light-color);
+        }
+        
+        .service-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid var(--primary-color);
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+        }
+        
+        .service-header h2 {
+            color: var(--primary-color);
+            font-size: 2rem;
+        }
+        
+        .service-content h3 {
+            color: var(--primary-color);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .service-content p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+        
+        .service-content ul {
+            margin: 1rem 0 1rem 2rem;
+            line-height: 2;
+        }
+        
+        .service-content ul li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .highlight-box {
+            background: #fff3cd;
+            border-left: 4px solid var(--secondary-color);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 5px;
+        }
+        
+        .highlight-box strong {
+            color: var(--primary-color);
+        }
+        
+        .cta-box {
+            background: var(--accent-color);
+            color: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .cta-box h3 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .cta-box .btn {
+            background: var(--white);
+            color: var(--accent-color);
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0.5rem;
+            transition: transform 0.3s;
+        }
+        
+        .cta-box .btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .footer {
+            background: var(--dark-color);
+            color: var(--white);
+            padding: 3rem 0 1rem;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-section h3 {
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .footer-section a {
+            color: var(--white);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: var(--secondary-color);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #444;
+            color: #999;
+        }
+        
+        .floating-buttons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 1000;
+        }
+        
+        .floating-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.75rem;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .floating-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+        }
+        
+        .whatsapp-btn {
+            background: #25D366;
+            color: var(--white);
+        }
+        
+        .phone-btn {
+            background: var(--red);
+            color: var(--white);
+        }
+        
+        @media (max-width: 768px) {
+            .page-hero h1 {
+                font-size: 1.75rem;
+            }
+            
+            .service-detail {
+                padding: 1.5rem;
+            }
+            
+            .service-header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .service-header h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    🚰 Desentupidora Campeche
+                </a>
+                <nav class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a href="sobre.html">Sobre Nós</a>
+                    <a href="contato.html">Contato</a>
+                </nav>
+                <a href="tel:+5548991982664" class="cta-button">📞 (48) 99198-2664</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>🔧 Nossos Serviços Especializados</h1>
+            <p>Soluções completas em desentupimento para o Campeche e região</p>
+        </div>
+    </section>
+
+    <!-- Services Details -->
+    <section class="section">
+        <div class="container">
+            
+            <!-- Desentupimento de Vaso Sanitário -->
+            <div class="service-detail" id="vaso-sanitario">
+                <div class="service-header">
+                    <div class="service-icon">🚽</div>
+                    <h2>Desentupimento de Vaso Sanitário no Campeche</h2>
+                </div>
+                <div class="service-content">
+                    <p>O <strong>desentupimento de vaso sanitário</strong> é um dos serviços mais solicitados no Campeche e região. A Desentupidora Campeche possui equipamentos especializados e técnicos experientes para resolver qualquer tipo de entupimento em vasos sanitários, desde obstruções simples até casos mais complexos.</p>
+                    
+                    <h3>Principais Causas de Entupimento de Vaso Sanitário</h3>
+                    <ul>
+                        <li>Descarte inadequado de papel higiênico em excesso</li>
+                        <li>Objetos estranhos jogados no vaso (brinquedos, absorventes, fraldas)</li>
+                        <li>Acúmulo de resíduos e calcificação nas tubulações</li>
+                        <li>Problemas na caixa de descarga ou sifão</li>
+                        <li>Instalação inadequada ou tubulação antiga</li>
+                    </ul>
+                    
+                    <h3>Como Realizamos o Desentupimento</h3>
+                    <p>Nossa equipe utiliza técnicas modernas e equipamentos profissionais para garantir um serviço eficiente e duradouro. O processo inclui:</p>
+                    <ul>
+                        <li><strong>Diagnóstico preciso:</strong> Identificamos a causa e localização exata do entupimento</li>
+                        <li><strong>Equipamentos adequados:</strong> Utilizamos cabos flexíveis, molas desentupidoras e hidrojateamento quando necessário</li>
+                        <li><strong>Desobstrução completa:</strong> Removemos toda a obstrução sem danificar a louça ou tubulação</li>
+                        <li><strong>Teste de funcionamento:</strong> Verificamos o perfeito escoamento após o serviço</li>
+                        <li><strong>Orientação preventiva:</strong> Fornecemos dicas para evitar novos entupimentos</li>
+                    </ul>
+                    
+                    <div class="highlight-box">
+                        <p><strong>⚠️ Importante:</strong> Evite o uso de produtos químicos caseiros que podem danificar a tubulação e agravar o problema. Nossa equipe está preparada para resolver o entupimento de forma segura e eficaz.</p>
+                    </div>
+                    
+                    <h3>Atendimento Emergencial 24 Horas</h3>
+                    <p>Entendemos que um vaso sanitário entupido é uma situação de emergência. Por isso, oferecemos atendimento 24 horas no Campeche, Morro das Pedras, Rio Tavares e toda a região Sul da Ilha de Florianópolis.</p>
+                    
+                    <div class="cta-box">
+                        <h3>🚨 Vaso Sanitário Entupido?</h3>
+                        <p>Atendemos em até 1 hora no Campeche!</p>
+                        <a href="https://wa.me/5548991982664" class="btn" target="_blank" rel="noopener">💬 WhatsApp</a>
+                        <a href="tel:+5548991982664" class="btn">📞 Ligar Agora</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desentupimento de Ralo -->
+            <div class="service-detail" id="ralo">
+                <div class="service-header">
+                    <div class="service-icon">🚿</div>
+                    <h2>Desentupimento de Ralo no Campeche</h2>
+                </div>
+                <div class="service-content">
+                    <p>O <strong>desentupimento de ralo</strong> é essencial para manter o bom funcionamento do sistema de drenagem da sua residência ou estabelecimento comercial no Campeche. Ralos entupidos podem causar alagamentos, mau cheiro e proliferação de insetos.</p>
+                    
+                    <h3>Tipos de Ralos que Atendemos</h3>
+                    <ul>
+                        <li><strong>Ralo de banheiro:</strong> Box, piso e área externa</li>
+                        <li><strong>Ralo de cozinha:</strong> Pia e área de serviço</li>
+                        <li><strong>Ralo de área externa:</strong> Quintal, garagem e calçada</li>
+                        <li><strong>Ralo de área de serviço:</strong> Tanque e máquina de lavar</li>
+                        <li><strong>Ralo sifonado:</strong> Com caixa de inspeção</li>
+                    </ul>
+                    
+                    <h3>Causas Comuns de Entupimento de Ralo</h3>
+                    <p>Os ralos podem entupir por diversos motivos, sendo os mais comuns:</p>
+                    <ul>
+                        <li>Acúmulo de cabelos e pelos no ralo do banheiro</li>
+                        <li>Restos de comida e gordura no ralo da cozinha</li>
+                        <li>Sabão, resíduos de produtos de limpeza e fiapos de tecido</li>
+                        <li>Folhas, terra e detritos em ralos externos</li>
+                        <li>Objetos pequenos que caem acidentalmente no ralo</li>
+                    </ul>
+                    
+                    <h3>Nosso Processo de Desentupimento</h3>
+                    <p>A Desentupidora Campeche utiliza métodos eficientes para desobstruir ralos de todos os tipos:</p>
+                    <ul>
+                        <li>Remoção manual de resíduos superficiais</li>
+                        <li>Uso de equipamentos específicos para desobstrução profunda</li>
+                        <li>Hidrojateamento para limpeza completa da tubulação</li>
+                        <li>Inspeção com câmera quando necessário</li>
+                        <li>Limpeza e higienização do local após o serviço</li>
+                    </ul>
+                    
+                    <div class="highlight-box">
+                        <p><strong>💡 Dica Preventiva:</strong> Instale grelhas ou protetores nos ralos para evitar a entrada de resíduos sólidos. Faça limpezas periódicas removendo cabelos e detritos visíveis.</p>
+                    </div>
+                    
+                    <div class="cta-box">
+                        <h3>🚨 Ralo Entupido ou com Mau Cheiro?</h3>
+                        <p>Atendimento rápido no Campeche e região!</p>
+                        <a href="https://wa.me/5548991982664" class="btn" target="_blank" rel="noopener">💬 WhatsApp</a>
+                        <a href="tel:+5548991982664" class="btn">📞 Ligar Agora</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desentupimento de Pia -->
+            <div class="service-detail" id="pia">
+                <div class="service-header">
+                    <div class="service-icon">🍽️</div>
+                    <h2>Desentupimento de Pia no Campeche</h2>
+                </div>
+                <div class="service-content">
+                    <p>O <strong>desentupimento de pia</strong> é um serviço fundamental para residências e estabelecimentos comerciais no Campeche. Pias entupidas causam transtornos no dia a dia, impedindo o uso normal da cozinha ou banheiro.</p>
+                    
+                    <h3>Tipos de Pia que Desentupimos</h3>
+                    <ul>
+                        <li><strong>Pia de cozinha:</strong> Residencial e comercial (restaurantes, lanchonetes)</li>
+                        <li><strong>Pia de banheiro:</strong> Lavatório e cuba</li>
+                        <li><strong>Pia de área de serviço:</strong> Tanque e lavanderia</li>
+                        <li><strong>Pia industrial:</strong> Cozinhas industriais e estabelecimentos</li>
+                    </ul>
+                    
+                    <h3>Principais Causas de Entupimento de Pia</h3>
+                    <p>As pias podem entupir por diversos fatores, especialmente quando não há cuidados adequados:</p>
+                    <ul>
+                        <li><strong>Gordura acumulada:</strong> Principal causa em pias de cozinha</li>
+                        <li><strong>Restos de alimentos:</strong> Cascas, sementes e resíduos sólidos</li>
+                        <li><strong>Sabão e produtos de limpeza:</strong> Formam resíduos que grudam nas paredes dos canos</li>
+                        <li><strong>Cabelos e fios:</strong> Comum em pias de banheiro</li>
+                        <li><strong>Objetos estranhos:</strong> Tampas, esponjas e outros itens que caem no ralo</li>
+                        <li><strong>Tubulação inadequada:</strong> Canos muito estreitos ou mal instalados</li>
+                    </ul>
+                    
+                    <h3>Como Desentupimos Pias</h3>
+                    <p>Nossa equipe especializada utiliza as melhores técnicas para desentupir pias de forma eficiente:</p>
+                    <ul>
+                        <li><strong>Desmontagem do sifão:</strong> Quando a obstrução está localizada nesta peça</li>
+                        <li><strong>Uso de cabos e molas:</strong> Para desobstruções mais profundas na tubulação</li>
+                        <li><strong>Produtos específicos:</strong> Desincrustantes profissionais quando necessário</li>
+                        <li><strong>Hidrojateamento:</strong> Para limpeza completa e remoção de gordura incrustada</li>
+                        <li><strong>Substituição de peças:</strong> Quando identificamos componentes danificados</li>
+                    </ul>
+                    
+                    <div class="highlight-box">
+                        <p><strong>⚠️ Atenção:</strong> Nunca jogue óleo de cozinha usado na pia! Além de entupir a tubulação, causa graves danos ambientais. Descarte o óleo em recipientes adequados ou em postos de coleta.</p>
+                    </div>
+                    
+                    <h3>Prevenção de Entupimentos em Pias</h3>
+                    <p>Seguindo algumas orientações simples, você pode evitar entupimentos frequentes:</p>
+                    <ul>
+                        <li>Utilize peneiras ou ralos protetores para evitar a passagem de resíduos sólidos</li>
+                        <li>Descarte restos de alimentos no lixo antes de lavar a louça</li>
+                        <li>Nunca jogue óleo ou gordura na pia</li>
+                        <li>Faça limpezas periódicas com água quente e detergente</li>
+                        <li>Evite o uso excessivo de produtos químicos agressivos</li>
+                    </ul>
+                    
+                    <div class="cta-box">
+                        <h3>🚨 Pia Entupida no Campeche?</h3>
+                        <p>Resolvemos seu problema rapidamente!</p>
+                        <a href="https://wa.me/5548991982664" class="btn" target="_blank" rel="noopener">💬 WhatsApp</a>
+                        <a href="tel:+5548991982664" class="btn">📞 Ligar Agora</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desentupimento de Tanque -->
+            <div class="service-detail" id="tanque">
+                <div class="service-header">
+                    <div class="service-icon">🧺</div>
+                    <h2>Desentupimento de Tanque no Campeche</h2>
+                </div>
+                <div class="service-content">
+                    <p>O <strong>desentupimento de tanque</strong> é essencial para manter a funcionalidade da área de serviço. Tanques entupidos impedem a lavagem de roupas e podem causar transbordamentos e alagamentos no Campeche.</p>
+                    
+                    <h3>Causas de Entupimento em Tanques</h3>
+                    <ul>
+                        <li>Acúmulo de fiapos de tecido e fibras de roupas</li>
+                        <li>Resíduos de sabão em pó e amaciante</li>
+                        <li>Pelos de animais domésticos</li>
+                        <li>Sujeira e terra de roupas muito sujas</li>
+                        <li>Objetos pequenos que caem no ralo (botões, moedas)</li>
+                    </ul>
+                    
+                    <h3>Nosso Serviço de Desentupimento</h3>
+                    <p>Realizamos o desentupimento completo de tanques utilizando:</p>
+                    <ul>
+                        <li>Equipamentos específicos para desobstrução de tubulações</li>
+                        <li>Limpeza do sifão e tubulação de saída</li>
+                        <li>Remoção de resíduos acumulados</li>
+                        <li>Teste de escoamento após o serviço</li>
+                    </ul>
+                    
+                    <div class="highlight-box">
+                        <p><strong>💡 Dica:</strong> Instale uma tela ou peneira no ralo do tanque para reter fiapos e resíduos sólidos. Limpe regularmente esta proteção para manter o bom escoamento.</p>
+                    </div>
+                    
+                    <div class="cta-box">
+                        <h3>🚨 Tanque Entupido?</h3>
+                        <p>Atendimento rápido no Campeche!</p>
+                        <a href="https://wa.me/5548991982664" class="btn" target="_blank" rel="noopener">💬 WhatsApp</a>
+                        <a href="tel:+5548991982664" class="btn">📞 Ligar Agora</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Limpeza de Caixa de Gordura -->
+            <div class="service-detail" id="caixa-gordura">
+                <div class="service-header">
+                    <div class="service-icon">🍳</div>
+                    <h2>Limpeza de Caixa de Gordura no Campeche</h2>
+                </div>
+                <div class="service-content">
+                    <p>A <strong>limpeza de caixa de gordura</strong> é um serviço preventivo essencial para evitar entupimentos graves no sistema de esgoto. No Campeche, atendemos residências, restaurantes, lanchonetes e estabelecimentos comerciais com serviço profissional e descarte ambientalmente correto.</p>
+                    
+                    <h3>O Que é a Caixa de Gordura?</h3>
+                    <p>A caixa de gordura é um dispositivo instalado entre a pia da cozinha e a rede de esgoto. Sua função é reter gorduras e óleos antes que cheguem à tubulação principal, evitando entupimentos e problemas ambientais.</p>
+                    
+                    <h3>Por Que Fazer a Limpeza Regular?</h3>
+                    <ul>
+                        <li><strong>Previne entupimentos:</strong> Evita obstruções graves na tubulação de esgoto</li>
+                        <li><strong>Elimina mau cheiro:</strong> Remove resíduos em decomposição que causam odores</li>
+                        <li><strong>Protege o meio ambiente:</strong> Impede que gordura chegue aos rios e mares</li>
+                        <li><strong>Aumenta a vida útil:</strong> Preserva a tubulação e o sistema de esgoto</li>
+                        <li><strong>Cumpre legislação:</strong> Estabelecimentos comerciais são obrigados por lei</li>
+                    </ul>
+                    
+                    <h3>Frequência Recomendada de Limpeza</h3>
+                    <ul>
+                        <li><strong>Residências:</strong> A cada 6 meses</li>
+                        <li><strong>Restaurantes e lanchonetes:</strong> Mensalmente ou conforme volume</li>
+                        <li><strong>Condomínios:</strong> A cada 3 a 6 meses</li>
+                        <li><strong>Estabelecimentos comerciais:</strong> Conforme exigência da vigilância sanitária</li>
+                    </ul>
+                    
+                    <h3>Como Realizamos a Limpeza</h3>
+                    <p>Nosso serviço de limpeza de caixa de gordura inclui:</p>
+                    <ul>
+                        <li><strong>Inspeção inicial:</strong> Avaliação do estado da caixa e nível de gordura</li>
+                        <li><strong>Remoção completa:</strong> Sucção de toda gordura, resíduos e água</li>
+                        <li><strong>Limpeza interna:</strong> Raspagem e higienização das paredes internas</li>
+                        <li><strong>Desobstrução:</strong> Limpeza das tubulações de entrada e saída</li>
+                        <li><strong>Descarte correto:</strong> Destinação ambientalmente adequada dos resíduos</li>
+                        <li><strong>Teste final:</strong> Verificação do funcionamento após a limpeza</li>
+                    </ul>
+                    
+                    <div class="highlight-box">
+                        <p><strong>🌿 Responsabilidade Ambiental:</strong> Possuímos Licença Ambiental e realizamos o descarte de resíduos em estações de tratamento autorizadas, cumprindo todas as normas ambientais.</p>
+                    </div>
+                    
+                    <h3>Sinais de Que a Caixa Precisa de Limpeza</h3>
+                    <ul>
+                        <li>Mau cheiro vindo dos ralos e pias</li>
+                        <li>Escoamento lento da água na pia</li>
+                        <li>Transbordamento da caixa de gordura</li>
+                        <li>Presença de insetos e pragas</li>
+                        <li>Mais de 6 meses desde a última limpeza</li>
+                    </ul>
+                    
+                    <div class="cta-box">
+                        <h3>🚨 Precisa Limpar a Caixa de Gordura?</h3>
+                        <p>Orçamento gratuito no Campeche!</p>
+                        <a href="https://wa.me/5548991982664" class="btn" target="_blank" rel="noopener">💬 WhatsApp</a>
+                        <a href="tel:+5548991982664" class="btn">📞 Ligar Agora</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desentupimento de Esgoto -->
+            <div class="service-detail" id="esgoto">
+                <div class="service-header">
+                    <div class="service-icon">🚰</div>
+                    <h2>Desentupimento de Esgoto no Campeche</h2>
+                </div>
+                <div class="service-content">
+                    <p>O <strong>desentupimento de esgoto</strong> é um serviço crítico que requer equipamentos especializados e profissionais experientes. No Campeche, a Desentupidora Campeche atende emergências de entupimento de esgoto 24 horas, garantindo solução rápida e eficaz.</p>
+                    
+                    <h3>Tipos de Redes de Esgoto que Atendemos</h3>
+                    <ul>
+                        <li><strong>Esgoto residencial:</strong> Tubulações internas e externas de casas e apartamentos</li>
+                        <li><strong>Esgoto comercial:</strong> Estabelecimentos comerciais, lojas e escritórios</li>
+                        <li><strong>Esgoto industrial:</strong> Fábricas e indústrias</li>
+                        <li><strong>Esgoto de condomínios:</strong> Redes coletoras prediais</li>
+                        <li><strong>Redes subterrâneas:</strong> Tubulações enterradas</li>
+                        <li><strong>Colunas e prumadas:</strong> Tubulações verticais de edifícios</li>
+                    </ul>
+                    
+                    <h3>Causas Comuns de Entupimento de Esgoto</h3>
+                    <p>Os entupimentos de esgoto podem ter diversas origens:</p>
+                    <ul>
+                        <li>Acúmulo de gordura nas paredes dos canos</li>
+                        <li>Objetos e resíduos sólidos descartados inadequadamente</li>
+                        <li>Raízes de árvores que invadem a tubulação</li>
+                        <li>Quebra ou deslocamento de tubos</li>
+                        <li>Construção inadequada ou tubulação antiga</li>
+                        <li>Falta de manutenção preventiva</li>
+                    </ul>
+                    
+                    <h3>Técnicas e Equipamentos Utilizados</h3>
+                    <p>Para desentupir redes de esgoto, utilizamos tecnologia de ponta:</p>
+                    <ul>
+                        <li><strong>Hidrojateamento de alta pressão:</strong> Jatos de água que removem incrustações e desobstruem completamente</li>
+                        <li><strong>Cabos e molas rotativas:</strong> Para desobstruções mecânicas profundas</li>
+                        <li><strong>Inspeção com câmera:</strong> Identificação precisa do problema sem quebrar</li>
+                        <li><strong>Caminhão limpa fossa:</strong> Para sucção de resíduos e limpeza de caixas de inspeção</li>
+                        <li><strong>Equipamentos de segurança:</strong> Proteção para nossa equipe e seu imóvel</li>
+                    </ul>
+                    
+                    <h3>Sinais de Entupimento de Esgoto</h3>
+                    <p>Fique atento aos seguintes sinais que indicam problemas na rede de esgoto:</p>
+                    <ul>
+                        <li>Mau cheiro constante vindo dos ralos</li>
+                        <li>Água voltando pelos ralos e vasos sanitários</li>
+                        <li>Escoamento lento em múltiplos pontos da casa</li>
+                        <li>Gorgolejos e ruídos estranhos na tubulação</li>
+                        <li>Alagamento no quintal ou área externa</li>
+                        <li>Manchas de umidade nas paredes</li>
+                    </ul>
+                    
+                    <div class="highlight-box">
+                        <p><strong>⚠️ Emergência:</strong> Entupimento de esgoto é uma situação grave que pode causar danos à saúde e ao imóvel. Nossa equipe está disponível 24 horas para atendimento emergencial no Campeche e região.</p>
+                    </div>
+                    
+                    <h3>Prevenção de Entupimentos de Esgoto</h3>
+                    <ul>
+                        <li>Não descarte objetos sólidos nos vasos e ralos</li>
+                        <li>Faça limpeza periódica da caixa de gordura</li>
+                        <li>Realize manutenção preventiva anual da rede de esgoto</li>
+                        <li>Evite plantar árvores próximo à tubulação</li>
+                        <li>Contrate inspeção com câmera periodicamente</li>
+                    </ul>
+                    
+                    <div class="cta-box">
+                        <h3>🚨 Esgoto Entupido no Campeche?</h3>
+                        <p>Atendimento emergencial 24 horas!</p>
+                        <a href="https://wa.me/5548991982664" class="btn" target="_blank" rel="noopener">💬 WhatsApp</a>
+                        <a href="tel:+5548991982664" class="btn">📞 Ligar Agora</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Limpa Fossa -->
+            <div class="service-detail" id="limpa-fossa">
+                <div class="service-header">
+                    <div class="service-icon">🏠</div>
+                    <h2>Limpa Fossa no Campeche</h2>
+                </div>
+                <div class="service-content">
+                    <p>O serviço de <strong>limpa fossa</strong> é fundamental para o bom funcionamento do sistema de tratamento de esgoto em residências e estabelecimentos que não possuem ligação com a rede pública. No Campeche e Sul da Ilha, a Desentupidora Campeche oferece serviço completo de limpeza e esgotamento de fossas sépticas.</p>
+                    
+                    <h3>Tipos de Fossa que Atendemos</h3>
+                    <ul>
+                        <li><strong>Fossa séptica:</strong> Sistema de tratamento primário de esgoto</li>
+                        <li><strong>Fossa sumidouro:</strong> Complemento da fossa séptica para infiltração</li>
+                        <li><strong>Fossa negra:</strong> Sistema antigo que requer limpeza frequente</li>
+                        <li><strong>Fossa biodigestora:</strong> Sistema ecológico de tratamento</li>
+                        <li><strong>Poço de recalque:</strong> Sistema de bombeamento de esgoto</li>
+                    </ul>
+                    
+                    <h3>Quando Fazer a Limpeza da Fossa?</h3>
+                    <p>A frequência de limpeza depende do tamanho da fossa e do número de usuários:</p>
+                    <ul>
+                        <li><strong>Residências:</strong> A cada 1 a 3 anos, dependendo do uso</li>
+                        <li><strong>Estabelecimentos comerciais:</strong> Anualmente ou conforme necessidade</li>
+                        <li><strong>Condomínios:</strong> Conforme projeto e dimensionamento</li>
+                    </ul>
+                    
+                    <h3>Sinais de Que a Fossa Precisa de Limpeza</h3>
+                    <ul>
+                        <li>Mau cheiro intenso no quintal ou dentro de casa</li>
+                        <li>Escoamento lento dos vasos e ralos</li>
+                        <li>Transbordamento da fossa</li>
+                        <li>Água voltando pelos ralos</li>
+                        <li>Solo úmido ou encharcado próximo à fossa</li>
+                        <li>Presença de insetos e pragas</li>
+                    </ul>
+                    
+                    <h3>Como Realizamos o Serviço de Limpa Fossa</h3>
+                    <p>Nosso processo completo de limpeza de fossa inclui:</p>
+                    <ul>
+                        <li><strong>Inspeção inicial:</strong> Avaliação do estado da fossa e nível de resíduos</li>
+                        <li><strong>Esgotamento completo:</strong> Sucção de todo o conteúdo com caminhão limpa fossa</li>
+                        <li><strong>Limpeza interna:</strong> Remoção de crostas e resíduos aderidos</li>
+                        <li><strong>Lavagem:</strong> Limpeza com jatos de água sob pressão</li>
+                        <li><strong>Inspeção final:</strong> Verificação de rachaduras e problemas estruturais</li>
+                        <li><strong>Descarte correto:</strong> Destinação em estação de tratamento autorizada</li>
+                    </ul>
+                    
+                    <div class="highlight-box">
+                        <p><strong>🌿 Licença Ambiental:</strong> Possuímos Alvará Sanitário e Licença Ambiental. Todos os resíduos são descartados em estações de tratamento autorizadas, cumprindo a legislação ambiental.</p>
+                    </div>
+                    
+                    <h3>Cuidados Após a Limpeza</h3>
+                    <ul>
+                        <li>Evite jogar produtos químicos agressivos na fossa</li>
+                        <li>Não descarte papel higiênico, absorventes ou preservativos</li>
+                        <li>Evite o despejo de gordura e óleo</li>
+                        <li>Faça inspeções periódicas</li>
+                        <li>Mantenha a tampa da fossa bem fechada</li>
+                    </ul>
+                    
+                    <div class="cta-box">
+                        <h3>🚨 Precisa de Limpa Fossa no Campeche?</h3>
+                        <p>Serviço completo com descarte ambientalmente correto!</p>
+                        <a href="https://wa.me/5548991982664" class="btn" target="_blank" rel="noopener">💬 WhatsApp</a>
+                        <a href="tel:+5548991982664" class="btn">📞 Ligar Agora</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hidrojateamento -->
+            <div class="service-detail" id="hidrojateamento">
+                <div class="service-header">
+                    <div class="service-icon">💧</div>
+                    <h2>Hidrojateamento no Campeche</h2>
+                </div>
+                <div class="service-content">
+                    <p>O <strong>hidrojateamento</strong> é a técnica mais moderna e eficiente para limpeza e desobstrução de tubulações. Utilizando jatos de água em alta pressão, conseguimos remover completamente incrustações, gordura e resíduos que se acumulam nas paredes dos canos.</p>
+                    
+                    <h3>O Que é Hidrojateamento?</h3>
+                    <p>O hidrojateamento é um processo de limpeza que utiliza água pressurizada em alta velocidade (até 4000 PSI) para desobstruir e limpar tubulações. É o método mais eficaz para remoção de gordura incrustada, raízes, calcificações e outros resíduos.</p>
+                    
+                    <h3>Vantagens do Hidrojateamento</h3>
+                    <ul>
+                        <li><strong>Limpeza completa:</strong> Remove 100% dos resíduos e incrustações</li>
+                        <li><strong>Não danifica tubulações:</strong> Método seguro que não agride os canos</li>
+                        <li><strong>Ecologicamente correto:</strong> Utiliza apenas água, sem produtos químicos</li>
+                        <li><strong>Preventivo e curativo:</strong> Resolve entupimentos e previne novos problemas</li>
+                        <li><strong>Eficiência garantida:</strong> Resultados superiores aos métodos convencionais</li>
+                        <li><strong>Durabilidade:</strong> Mantém as tubulações limpas por muito mais tempo</li>
+                    </ul>
+                    
+                    <h3>Onde Aplicamos o Hidrojateamento</h3>
+                    <ul>
+                        <li>Redes de esgoto residenciais e comerciais</li>
+                        <li>Tubulações de águas pluviais</li>
+                        <li>Colunas e prumadas de edifícios</li>
+                        <li>Caixas de gordura e de inspeção</li>
+                        <li>Fossas sépticas e sumidouros</li>
+                        <li>Galerias e redes públicas (com autorização)</li>
+                    </ul>
+                    
+                    <h3>Quando Utilizar o Hidrojateamento?</h3>
+                    <p>O hidrojateamento é recomendado em diversas situações:</p>
+                    <ul>
+                        <li>Entupimentos recorrentes na mesma tubulação</li>
+                        <li>Acúmulo de gordura em tubulações de cozinha</li>
+                        <li>Limpeza preventiva de redes de esgoto</li>
+                        <li>Remoção de raízes que invadiram a tubulação</li>
+                        <li>Preparação para inspeção com câmera</li>
+                        <li>Manutenção periódica em estabelecimentos comerciais</li>
+                    </ul>
+                    
+                    <h3>Nossos Equipamentos</h3>
+                    <p>A Desentupidora Campeche possui equipamentos de hidrojateamento de última geração:</p>
+                    <ul>
+                        <li>Máquinas de alta pressão com diferentes níveis de potência</li>
+                        <li>Bicos especiais para cada tipo de obstrução</li>
+                        <li>Mangueiras de alta resistência em diversos comprimentos</li>
+                        <li>Acessórios para diferentes diâmetros de tubulação</li>
+                    </ul>
+                    
+                    <div class="highlight-box">
+                        <p><strong>💡 Manutenção Preventiva:</strong> Recomendamos hidrojateamento preventivo anual para estabelecimentos comerciais e a cada 2-3 anos para residências, evitando entupimentos graves e prolongando a vida útil da tubulação.</p>
+                    </div>
+                    
+                    <div class="cta-box">
+                        <h3>🚨 Precisa de Hidrojateamento no Campeche?</h3>
+                        <p>Tecnologia de ponta para limpeza completa!</p>
+                        <a href="https://wa.me/5548991982664" class="btn" target="_blank" rel="noopener">💬 WhatsApp</a>
+                        <a href="tel:+5548991982664" class="btn">📞 Ligar Agora</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desentupimento de Plumadas -->
+            <div class="service-detail" id="plumadas">
+                <div class="service-header">
+                    <div class="service-icon">🏢</div>
+                    <h2>Desentupimento de Plumadas no Campeche</h2>
+                </div>
+                <div class="service-content">
+                    <p>O <strong>desentupimento de plumadas</strong> (também chamadas de colunas ou prumadas) é um serviço especializado para edifícios residenciais e comerciais. As plumadas são tubulações verticais que transportam esgoto dos andares superiores até o térreo ou subsolo.</p>
+                    
+                    <h3>O Que São Plumadas?</h3>
+                    <p>Plumadas são as colunas verticais de esgoto em edifícios. Cada apartamento ou sala comercial é conectado a essas colunas, que descem verticalmente até a rede coletora principal. Quando entopem, podem afetar múltiplos andares.</p>
+                    
+                    <h3>Causas de Entupimento em Plumadas</h3>
+                    <ul>
+                        <li>Descarte inadequado de objetos pelos moradores</li>
+                        <li>Acúmulo de gordura ao longo dos anos</li>
+                        <li>Problemas na construção ou instalação</li>
+                        <li>Falta de manutenção preventiva</li>
+                        <li>Quebra ou deslocamento de tubos</li>
+                        <li>Raízes que invadem a tubulação</li>
+                    </ul>
+                    
+                    <h3>Sinais de Entupimento em Plumadas</h3>
+                    <ul>
+                        <li>Entupimentos simultâneos em vários apartamentos</li>
+                        <li>Esgoto voltando nos andares inferiores</li>
+                        <li>Mau cheiro generalizado no edifício</li>
+                        <li>Escoamento lento em múltiplos pontos</li>
+                        <li>Transbordamento de caixas de inspeção</li>
+                    </ul>
+                    
+                    <h3>Como Desentupimos Plumadas</h3>
+                    <p>O desentupimento de plumadas requer equipamentos especiais e técnicos experientes:</p>
+                    <ul>
+                        <li><strong>Inspeção com câmera:</strong> Identificação precisa do local e causa do entupimento</li>
+                        <li><strong>Acesso estratégico:</strong> Utilizamos caixas de inspeção ou pontos de acesso no edifício</li>
+                        <li><strong>Cabos de longo alcance:</strong> Equipamentos que alcançam grandes alturas</li>
+                        <li><strong>Hidrojateamento vertical:</strong> Limpeza completa da coluna de esgoto</li>
+                        <li><strong>Teste de funcionamento:</strong> Verificação em todos os andares afetados</li>
+                    </ul>
+                    
+                    <div class="highlight-box">
+                        <p><strong>🏢 Condomínios:</strong> Recomendamos manutenção preventiva anual das plumadas em condomínios, incluindo hidrojateamento e inspeção com câmera, evitando transtornos aos moradores.</p>
+                    </div>
+                    
+                    <h3>Prevenção de Entupimentos em Plumadas</h3>
+                    <ul>
+                        <li>Orientação aos moradores sobre descarte adequado</li>
+                        <li>Instalação de caixas de gordura em cada unidade</li>
+                        <li>Manutenção preventiva anual</li>
+                        <li>Inspeção periódica com câmera</li>
+                        <li>Limpeza regular das caixas de inspeção</li>
+                    </ul>
+                    
+                    <div class="cta-box">
+                        <h3>🚨 Plumada Entupida no Condomínio?</h3>
+                        <p>Atendemos edifícios no Campeche e região!</p>
+                        <a href="https://wa.me/5548991982664" class="btn" target="_blank" rel="noopener">💬 WhatsApp</a>
+                        <a href="tel:+5548991982664" class="btn">📞 Ligar Agora</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🚰 Desentupidora Campeche</h3>
+                    <p>Especialistas em desentupimento e limpeza de fossas no Campeche e Sul da Ilha de Florianópolis.</p>
+                    <p style="margin-top: 1rem;">
+                        <strong>📞 (48) 99198-2664</strong><br>
+                        <strong>📧 contato@desentupidoracampeche.app.br</strong>
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Serviços</h3>
+                    <ul>
+                        <li><a href="#vaso-sanitario">Desentupimento de Vaso</a></li>
+                        <li><a href="#ralo">Desentupimento de Ralo</a></li>
+                        <li><a href="#pia">Desentupimento de Pia</a></li>
+                        <li><a href="#esgoto">Desentupimento de Esgoto</a></li>
+                        <li><a href="#limpa-fossa">Limpa Fossa</a></li>
+                        <li><a href="#caixa-gordura">Limpeza de Caixa de Gordura</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Horário de Atendimento</h3>
+                    <p>⏰ <strong>24 Horas por Dia</strong></p>
+                    <p>📅 Todos os dias da semana</p>
+                    <p>🚨 Atendimento emergencial</p>
+                    <p style="margin-top: 1rem;">
+                        📍 Campeche, Florianópolis - SC
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Desentupidora Campeche. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/5548991982664" class="floating-btn whatsapp-btn" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+        <a href="tel:+5548991982664" class="floating-btn phone-btn" aria-label="Ligar">📞</a>
+    </div>
+</body>
+</html>
+

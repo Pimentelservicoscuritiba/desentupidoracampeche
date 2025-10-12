@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça a Desentupidora Campeche: mais de 10 anos de experiência em desentupimento e limpa fossa no Campeche e Sul da Ilha. Equipe qualificada, equipamentos modernos e licença ambiental.">
+    <meta name="keywords" content="sobre desentupidora campeche, empresa desentupidora florianopolis, desentupidora licenciada">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://desentupidoracampeche.app.br/sobre.html">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Sobre Nós - Desentupidora Campeche | 10 Anos de Experiência</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-color: #1e5a8e;
+            --secondary-color: #ffa500;
+            --accent-color: #28a745;
+            --dark-color: #1a1a1a;
+            --light-color: #f8f9fa;
+            --white: #ffffff;
+            --red: #dc3545;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            overflow-x: hidden;
+        }
+        
+        .header {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--white);
+            text-decoration: none;
+        }
+        
+        .nav {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .nav a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav a:hover {
+            color: var(--secondary-color);
+        }
+        
+        .cta-button {
+            background: var(--secondary-color);
+            color: var(--dark-color);
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255,165,0,0.4);
+        }
+        
+        .page-hero {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #2c7ab8 100%);
+            color: var(--white);
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        .page-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .page-hero p {
+            font-size: 1.25rem;
+            opacity: 0.95;
+        }
+        
+        .section {
+            padding: 4rem 0;
+        }
+        
+        .section-alt {
+            background: var(--light-color);
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            color: var(--primary-color);
+        }
+        
+        .about-content {
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        .about-content p {
+            margin-bottom: 1.5rem;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .stat-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .stat-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 1rem;
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        
+        .value-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .value-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .value-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .value-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .certifications {
+            background: var(--accent-color);
+            color: var(--white);
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        .certifications h2 {
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+        
+        .cert-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .cert-item {
+            background: rgba(255,255,255,0.2);
+            padding: 1.5rem 2rem;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        
+        .footer {
+            background: var(--dark-color);
+            color: var(--white);
+            padding: 3rem 0 1rem;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-section h3 {
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .footer-section a {
+            color: var(--white);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: var(--secondary-color);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #444;
+            color: #999;
+        }
+        
+        .floating-buttons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 1000;
+        }
+        
+        .floating-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.75rem;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .floating-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+        }
+        
+        .whatsapp-btn {
+            background: #25D366;
+            color: var(--white);
+        }
+        
+        .phone-btn {
+            background: var(--red);
+            color: var(--white);
+        }
+        
+        @media (max-width: 768px) {
+            .page-hero h1 {
+                font-size: 1.75rem;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    🚰 Desentupidora Campeche
+                </a>
+                <nav class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a href="sobre.html">Sobre Nós</a>
+                    <a href="contato.html">Contato</a>
+                </nav>
+                <a href="tel:+5548991982664" class="cta-button">📞 (48) 99198-2664</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>🏆 Sobre a Desentupidora Campeche</h1>
+            <p>Tradição, confiança e excelência em serviços de desentupimento</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Nossa História</h2>
+                <p>A <strong>Desentupidora Campeche</strong> é uma empresa consolidada no mercado de desentupimento e limpeza de fossas, com mais de 10 anos de atuação no bairro Campeche e em toda a região Sul da Ilha de Florianópolis. Nossa trajetória é marcada pela dedicação em oferecer serviços de alta qualidade, sempre priorizando a satisfação dos nossos clientes e o respeito ao meio ambiente.</p>
+                
+                <p>Ao longo desses anos, construímos uma sólida reputação baseada em <strong>profissionalismo</strong>, <strong>pontualidade</strong> e <strong>eficiência</strong>. Atendemos centenas de clientes, desde residências familiares até grandes condomínios e estabelecimentos comerciais, sempre com o mesmo compromisso de excelência.</p>
+                
+                <p>Nossa equipe é formada por profissionais altamente capacitados e experientes, que passam por treinamentos constantes para se manterem atualizados com as melhores técnicas e tecnologias do setor. Investimos continuamente em equipamentos modernos e de última geração, garantindo que cada serviço seja executado com máxima eficiência e segurança.</p>
+                
+                <p>Além da competência técnica, nos orgulhamos do nosso <strong>atendimento humanizado</strong>. Entendemos que problemas de entupimento causam grande transtorno e desconforto, por isso estamos disponíveis 24 horas por dia, todos os dias da semana, para atender emergências e resolver seu problema com rapidez.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Números que Falam por Si</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">📅</div>
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Anos de Experiência</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">😊</div>
+                    <div class="stat-number">1500+</div>
+                    <div class="stat-label">Clientes Satisfeitos</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">🔧</div>
+                    <div class="stat-number">5000+</div>
+                    <div class="stat-label">Serviços Realizados</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">⏰</div>
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Atendimento Disponível</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Nossos Valores e Diferenciais</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">🎯</div>
+                    <h3>Compromisso com a Qualidade</h3>
+                    <p>Utilizamos apenas equipamentos de primeira linha e técnicas comprovadamente eficientes. Cada serviço é executado com rigor técnico e atenção aos detalhes, garantindo resultados duradouros.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">⚡</div>
+                    <h3>Agilidade no Atendimento</h3>
+                    <p>Entendemos a urgência dos problemas de entupimento. Nossa equipe está sempre pronta para atender emergências, com tempo de resposta rápido e eficiência na resolução.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">🌿</div>
+                    <h3>Responsabilidade Ambiental</h3>
+                    <p>Possuímos Licença Ambiental e Alvará Sanitário. Todos os resíduos coletados são descartados em estações de tratamento autorizadas, cumprindo rigorosamente a legislação ambiental.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">💰</div>
+                    <h3>Preços Justos e Transparentes</h3>
+                    <p>Oferecemos orçamentos gratuitos e transparentes, sem taxas ocultas. Nossos preços são competitivos e justos, sempre com a melhor relação custo-benefício da região.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">👨‍🔧</div>
+                    <h3>Equipe Qualificada</h3>
+                    <p>Nossos profissionais são treinados, experientes e uniformizados. Tratamos cada cliente com respeito e profissionalismo, cuidando do seu imóvel como se fosse nosso.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">✅</div>
+                    <h3>Garantia dos Serviços</h3>
+                    <p>Todos os nossos serviços possuem garantia. Se o problema persistir dentro do prazo de garantia, retornamos sem custo adicional para resolver.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications">
+        <div class="container">
+            <h2>🏅 Certificações e Licenças</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem;">Operamos com total regularidade e responsabilidade</p>
+            <div class="cert-list">
+                <div class="cert-item">📋 Alvará Sanitário</div>
+                <div class="cert-item">🌱 Licença Ambiental</div>
+                <div class="cert-item">🚛 Frota Própria de Veículos</div>
+                <div class="cert-item">🛠️ Equipamentos Certificados</div>
+                <div class="cert-item">👷 Equipe Treinada</div>
+                <div class="cert-item">♻️ Descarte Ecológico</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="section">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Missão, Visão e Valores</h2>
+                
+                <h3 style="color: var(--primary-color); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">🎯 Nossa Missão</h3>
+                <p>Oferecer serviços de desentupimento e limpeza de fossas com excelência, agilidade e responsabilidade ambiental, superando as expectativas dos nossos clientes e contribuindo para a saúde pública e preservação do meio ambiente no Campeche e região.</p>
+                
+                <h3 style="color: var(--primary-color); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">👁️ Nossa Visão</h3>
+                <p>Ser reconhecida como a melhor e mais confiável empresa de desentupimento do Sul da Ilha de Florianópolis, referência em qualidade, inovação tecnológica e atendimento ao cliente.</p>
+                
+                <h3 style="color: var(--primary-color); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">💎 Nossos Valores</h3>
+                <ul style="margin-left: 2rem; line-height: 2;">
+                    <li><strong>Ética e Transparência:</strong> Agimos com honestidade em todas as nossas relações</li>
+                    <li><strong>Excelência:</strong> Buscamos constantemente a melhoria contínua dos nossos serviços</li>
+                    <li><strong>Respeito:</strong> Valorizamos cada cliente e tratamos todos com dignidade</li>
+                    <li><strong>Responsabilidade:</strong> Cumprimos nossos compromissos e assumimos nossas obrigações</li>
+                    <li><strong>Sustentabilidade:</strong> Cuidamos do meio ambiente em todas as nossas ações</li>
+                    <li><strong>Inovação:</strong> Investimos em tecnologia e capacitação constante</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">📍 Área de Cobertura</h2>
+            <div class="about-content">
+                <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem;">Atendemos com rapidez e eficiência toda a região do Campeche e Sul da Ilha de Florianópolis, além de outros bairros da Grande Florianópolis:</p>
+                
+                <div style="background: var(--white); padding: 2rem; border-radius: 10px; margin-top: 2rem;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Sul da Ilha</h3>
+                    <p>Campeche, Morro das Pedras, Rio Tavares, Ribeirão da Ilha, Pântano do Sul, Armação, Carianos, Tapera, Lagoa da Conceição</p>
+                    
+                    <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">Centro e Continente</h3>
+                    <p>Centro, Agronômica, Trindade, Córrego Grande, Santa Mônica, Itacorubi, Pantanal, João Paulo, Monte Verde, Capoeiras, Coqueiros, Estreito, Balneário</p>
+                    
+                    <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">Grande Florianópolis</h3>
+                    <p>São José, Kobrasol, Campinas, Barreiros, Palhoça, Pedra Branca, Biguaçu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="certifications">
+        <div class="container">
+            <h2>🚨 Precisa dos Nossos Serviços?</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem;">Entre em contato agora mesmo! Estamos disponíveis 24 horas.</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="https://wa.me/5548991982664" style="background: var(--white); color: var(--accent-color); padding: 1rem 2rem; border-radius: 5px; font-weight: 700; text-decoration: none; display: inline-block;" target="_blank" rel="noopener">💬 WhatsApp</a>
+                <a href="tel:+5548991982664" style="background: var(--white); color: var(--accent-color); padding: 1rem 2rem; border-radius: 5px; font-weight: 700; text-decoration: none; display: inline-block;">📞 (48) 99198-2664</a>
+                <a href="contato.html" style="background: var(--white); color: var(--accent-color); padding: 1rem 2rem; border-radius: 5px; font-weight: 700; text-decoration: none; display: inline-block;">📧 Formulário de Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🚰 Desentupidora Campeche</h3>
+                    <p>Especialistas em desentupimento e limpeza de fossas no Campeche e Sul da Ilha de Florianópolis.</p>
+                    <p style="margin-top: 1rem;">
+                        <strong>📞 (48) 99198-2664</strong><br>
+                        <strong>📧 contato@desentupidoracampeche.app.br</strong>
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Serviços</h3>
+                    <ul>
+                        <li><a href="servicos.html#vaso-sanitario">Desentupimento de Vaso</a></li>
+                        <li><a href="servicos.html#ralo">Desentupimento de Ralo</a></li>
+                        <li><a href="servicos.html#pia">Desentupimento de Pia</a></li>
+                        <li><a href="servicos.html#esgoto">Desentupimento de Esgoto</a></li>
+                        <li><a href="servicos.html#limpa-fossa">Limpa Fossa</a></li>
+                        <li><a href="servicos.html#caixa-gordura">Limpeza de Caixa de Gordura</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Horário de Atendimento</h3>
+                    <p>⏰ <strong>24 Horas por Dia</strong></p>
+                    <p>📅 Todos os dias da semana</p>
+                    <p>🚨 Atendimento emergencial</p>
+                    <p style="margin-top: 1rem;">
+                        📍 Campeche, Florianópolis - SC
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Desentupidora Campeche. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/5548991982664" class="floating-btn whatsapp-btn" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+        <a href="tel:+5548991982664" class="floating-btn phone-btn" aria-label="Ligar">📞</a>
+    </div>
+</body>
+</html>
+
